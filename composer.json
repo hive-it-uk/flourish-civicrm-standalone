@@ -2,8 +2,8 @@
     "require": {
         "php": "~7.4 || ~8",
         "cweagans/composer-patches": ">=1.7",
-        "civicrm/civicrm-core": "dev-master",
-        "civicrm/civicrm-packages": "dev-master",
+        "civicrm/civicrm-core": "6.1.2",
+        "civicrm/civicrm-packages": "6.1.2",
         "civicrm/civicrm-asset-plugin": "~1.1"
     },
     "config": {

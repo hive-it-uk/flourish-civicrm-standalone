@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec8877b92ff1542f327735ba0c2ac066",
+    "content-hash": "2280407232595de2adaab0903fdba6e6",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -271,16 +271,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "dev-master",
+            "version": "6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "4b48430e4ec467e5a88c8057dd87a9e1d64a2cd1"
+                "reference": "dfcf8876833922dbc22e5d2004b2c2435d964521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/4b48430e4ec467e5a88c8057dd87a9e1d64a2cd1",
-                "reference": "4b48430e4ec467e5a88c8057dd87a9e1d64a2cd1",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/dfcf8876833922dbc22e5d2004b2c2435d964521",
+                "reference": "dfcf8876833922dbc22e5d2004b2c2435d964521",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +310,7 @@
                 "marcj/topsort": "~1.1",
                 "pear/auth_sasl": "1.2.0",
                 "pear/db": "~1.12.1",
-                "pear/log": "1.14.5",
+                "pear/log": "1.14.4",
                 "pear/mail": "^2.0",
                 "pear/mail_mime": "~1.10",
                 "pear/net_smtp": "1.12.*",
@@ -348,7 +348,6 @@
                 "zetacomponents/base": "1.9.*",
                 "zetacomponents/mail": "~1.9.4"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "patches": {
@@ -777,7 +776,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/master"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.1.2"
             },
             "funding": [
                 {
@@ -785,11 +784,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-22T11:55:27+00:00"
+            "time": "2025-04-21T22:36:51+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "dev-master",
+            "version": "6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
@@ -801,7 +800,6 @@
                 "reference": "97ef1efd068c025a51ec5bc77806464e84935d40",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
@@ -2712,16 +2710,16 @@
         },
         {
             "name": "pear/log",
-            "version": "1.14.5",
+            "version": "1.14.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Log.git",
-                "reference": "38e6668ead984d446161acc1ba257cf77ec67bcd"
+                "reference": "f1ce70cfc8ee30af93c313f4e6444a7abe6aea03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Log/zipball/38e6668ead984d446161acc1ba257cf77ec67bcd",
-                "reference": "38e6668ead984d446161acc1ba257cf77ec67bcd",
+                "url": "https://api.github.com/repos/pear/Log/zipball/f1ce70cfc8ee30af93c313f4e6444a7abe6aea03",
+                "reference": "f1ce70cfc8ee30af93c313f4e6444a7abe6aea03",
                 "shasum": ""
             },
             "require": {
@@ -2755,12 +2753,12 @@
                 {
                     "name": "Jon Parise",
                     "email": "jon@php.net",
-                    "homepage": "https://www.indelible.org/",
+                    "homepage": "http://www.indelible.org",
                     "role": "Developer"
                 }
             ],
             "description": "PEAR Logging Framework",
-            "homepage": "https://pear.github.io/Log/",
+            "homepage": "http://pear.github.io/Log/",
             "keywords": [
                 "log",
                 "logging"
@@ -2769,7 +2767,7 @@
                 "issues": "https://github.com/pear/Log/issues",
                 "source": "https://github.com/pear/Log"
             },
-            "time": "2025-03-09T21:15:38+00:00"
+            "time": "2024-02-20T21:00:10+00:00"
         },
         {
             "name": "pear/mail",
@@ -6539,10 +6537,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "civicrm/civicrm-core": 20,
-        "civicrm/civicrm-packages": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
