@@ -4,7 +4,6 @@
 *.bak
 
 # composer lockfile and installed packages
-/composer.lock
 /vendor
 
 # site data
